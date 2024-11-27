@@ -1,0 +1,63 @@
+#top-gsap-heading{
+    background: linear-gradient(to left, red, skyblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 0;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+#gsap-install-container{
+    padding: 2vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#gsap-install-container h2{
+    font-size: 2vw;
+}
+
+#gsap-install-container li{
+    font-size: 2vw;
+}
+
+#gsap-content-container{
+    padding: 2vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+#gsap-content-container div{
+    width: 360px;
+    /* border: 1px solid black; */
+    padding: 1vw;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#gsap-content-container div:hover{
+    transform: scale(1.1);
+}
+
+#gsap-content-container li{
+    font-size: 13px;
+    line-height: 5vh;
+    font-weight: 600;
+}
+
+.note{
+    color: red;
+    font-weight: 600;
+}
+
+code{
+    color: blue;
+    font-weight: 600;
+}
+
