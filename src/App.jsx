@@ -8,8 +8,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ReactPage />}></Route>
-        <Route path="/gsap" element={<Gsap />}></Route>
+        <Route path="/" element={<ReactPage />} />
+        <Route path="/gsap" element={<Gsap />} />
       </Routes>
     </Router>
   );
